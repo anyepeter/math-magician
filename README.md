@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math magician] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Creating a magician calculator.
 
 **[your_project__name]** is a...
 
