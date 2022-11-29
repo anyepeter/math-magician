@@ -1,11 +1,11 @@
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.calculator-container{
+.calculator-container {
   width: 100%;
   display: flex;
   height: 100vh;
@@ -14,32 +14,31 @@
   flex-direction: column;
 }
 
-table{
+table {
   width: 30rem;
   height: 20rem;
   background-color: silver;
-
 }
 
-.table-row{
+.table-row {
   background-color: silver;
   width: 100%;
   height: auto;
 }
 
-.table-header{
+.table-header {
   text-align: end;
-padding-right: 5px;
-color: #fff;
-font-size: 25px;
+  padding-right: 5px;
+  color: #fff;
+  font-size: 25px;
 }
 
-td{
+td {
   /* border: 1px solid rgb(215, 213, 213); */
   text-align: center;
   background-color: rgb(244, 244, 244);
 }
 
-.operator{
+.operator {
   background-color: rgb(254, 171, 15);
 }
