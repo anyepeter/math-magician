@@ -34,7 +34,7 @@ const Calculator =() => {
             <td><p onClick={buttonPress}>AC</p></td>
             <td><p onClick={buttonPress}>+/-</p></td>
             <td><p onClick={buttonPress}>%</p></td>
-            <td className="operator"><p onClick={buttonPress}>+</p></td>
+            <td className="operator"><p onClick={buttonPress}>÷</p></td>
           </tr>
 
           <tr>
