@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculate from './components/calculator';
+import Calculator from './components/calculator';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Calculate />
+        <Calculator />
       </div>
     );
   }
