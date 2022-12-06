@@ -1,19 +1,21 @@
 import React from 'react';
-import Calculate from './components/calculator';
+import { Routes, Route } from 'react-router-dom';
+import Calculator from './components/calculator';
+import Home from './pages/home';
+import Quotes from './pages/quote';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
 
-  render() {
-    return (
-      <div>
-        <Calculate />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path = '/' element = { <Home /> } />
+        <Route path = 'calculator' element={<Calculator />} />
+        <Route path = 'quotes' element={<Quotes />} />
+        
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
