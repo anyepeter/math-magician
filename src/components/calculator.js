@@ -1,26 +1,23 @@
 /*eslint-disable*/
-import React from 'react';
+import { useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calculate extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
+const Calculator =() => {
+   
+  const items = {
+    total: 0,
+    next: null,
+    operation: null
   }
+  const [state, setState] = useState(items);
 
 
-  render() { 
-    const { total, next, operation } = this.state;
+
+    const { total, next, operation } = state;
     const buttonPress = (e) => {
-      this.setState(calculate(this.state, e.target.innerText));
+      setState(calculate(state, e.target.innerText));
     };
-    // const handleEven = (elem) => {
-    //   console.log(elem.keyCode);
-    // };
+    
     return (
       <div className="calculator-container">
         <table>
@@ -37,7 +34,7 @@ class Calculate extends React.Component {
             <td><p onClick={buttonPress}>AC</p></td>
             <td><p onClick={buttonPress}>+/-</p></td>
             <td><p onClick={buttonPress}>%</p></td>
-            <td className="operator"><p onClick={buttonPress}>+</p></td>
+            <td className="operator"><p onClick={buttonPress}>÷</p></td>
           </tr>
 
           <tr>
@@ -69,7 +66,7 @@ class Calculate extends React.Component {
         </table>
       </div>
     );
-  }
+  
 }
 
-export default Calculate;
+export default Calculator;
