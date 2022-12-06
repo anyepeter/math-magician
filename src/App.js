@@ -4,7 +4,6 @@ import Calculator from './components/calculator';
 import Home from './pages/home';
 import Quotes from './pages/quote';
 
-
 function App() {
   return (
     <div>
