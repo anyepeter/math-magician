@@ -1,8 +1,11 @@
 import React from 'react';
-
-const Home = () => {
-  return (
-    <main>
+import Navigation from './navbar';
+const Home = () => (
+  <>
+  <header>
+    <Navigation />
+  </header>
+  <main>
     <h2 className="welcome">Welcome to our page</h2>
     <div className="main-box">
       <p className="sub-box">
@@ -29,7 +32,7 @@ const Home = () => {
       </p>
     </div>
   </main>
-  );
-}
+  </>
+);
 
 export default Home;
