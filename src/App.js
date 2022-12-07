@@ -11,7 +11,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="calculator" element={<Calculator />} />
         <Route path="quotes" element={<Quotes />} />
-
       </Routes>
     </div>
   );
