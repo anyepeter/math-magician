@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<img width="500" src="https://media.giphy.com/media/a4qc93dci4GQkHz6CY/giphy.gif">
 
 <!--
 HOW TO USE:
@@ -59,15 +59,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math magician] <a name="about-project"></a>
 
-> Creating a magician calculator.
+> Math-Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read a random math-related quote.
 
-**[your_project__name]** is a...
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> THis project is built using the following.
 
 <details>
   <summary>Client</summary>
@@ -76,19 +76,7 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -96,9 +84,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Single Page App]**
+- **[Basic Calculations]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +112,12 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- A web browser to view output e.g Google Chrome.
+- An IDE e.g Visual studio code.
+- node should be installed in your local machine, node website.
+- Install the npm package manager use this to install both node and npm.
+- A terminal.
+
 <!--
 Example command:
 
@@ -136,39 +130,33 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+```sh
+  git clone https://github.com/anyepeter/math-magician.git
+```
+After navigate to the folder
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+cd math-magician
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+
 
 ```sh
-  rails server
+  npm start
 ```
---->
 
 ### Run tests
 
@@ -204,15 +192,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@anyepeter](https://github.com/githubhandle)
+- Twitter: [@apcode](https://twitter.com/twitterhandle)
+- LinkedIn: [peterchendi](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
