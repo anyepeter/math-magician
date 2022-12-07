@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-.main{
-  padding: 5em 7em;
+.main {
+  padding: 4em 7em;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  font-size: 1.6em;
+  font-family: 'Lato', sans-serif;
 }
 
-.main-box{
+.welcome {
+  font-size: 2em;
+}
+
+.main-box {
   display: flex;
   flex-direction: column;
   gap: 2em;
