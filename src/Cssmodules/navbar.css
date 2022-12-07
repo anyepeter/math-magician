@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 0 7em;
+  background-color: rgb(53, 52, 52);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav {
+  display: flex;
+  gap: 2em;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}

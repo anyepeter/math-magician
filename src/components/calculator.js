@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import Navigation from '../pages/navbar';
 
 const Calculator =() => {
    
@@ -19,7 +20,12 @@ const Calculator =() => {
     };
     
     return (
+      <>
+      <div> <Navigation /></div>
+
+     
       <div className="calculator-container">
+        <h1>Lets do some maths</h1>
         <table>
           <tr className="table-row">
             <th colSpan="4" className="table-header">
@@ -65,8 +71,8 @@ const Calculator =() => {
           </tr>
         </table>
       </div>
+      </>
     );
   
 }
-
 export default Calculator;
