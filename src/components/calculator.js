@@ -22,8 +22,10 @@ const Calculator =() => {
     return (
       <>
       <div> <Navigation /></div>
+
      
       <div className="calculator-container">
+        <h1>Lets do some maths</h1>
         <table>
           <tr className="table-row">
             <th colSpan="4" className="table-header">
