@@ -162,13 +162,10 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
 
 ### Deployment
 
@@ -196,20 +193,22 @@ Example:
 - Twitter: [@apcode](https://twitter.com/twitterhandle)
 - LinkedIn: [peterchendi](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author2**
+
+- GitHub: [@heintayzar-hm](https://github.com/githubhandle)
+- Twitter: [@heintayzar-hm](https://twitter.com/twitterhandle)
+- LinkedIn: [heintayzar-hm](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author3**
+
+- GitHub: [@Zainab-Alzubair](https://github.com/githubhandle)
+- Twitter: [@Zainab-Alzubair](https://twitter.com/twitterhandle)
+- LinkedIn: [Zainab-Alzubair](https://linkedin.com/in/linkedinhandle)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -242,20 +241,6 @@ I would like to thank...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
