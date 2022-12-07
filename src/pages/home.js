@@ -1,12 +1,8 @@
 import React from 'react';
-import Navigation from './navbar';
 import '../Cssmodules/homePage.css';
 
 const Home = () => (
   <>
-    <header>
-      <Navigation />
-    </header>
     <main className="main">
       <h2 className="welcome">Welcome to our page</h2>
       <div className="main-box">
