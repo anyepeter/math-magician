@@ -23,16 +23,19 @@ const Calculator =() => {
       <div className="calculator-container">
         <h1>Lets do some maths</h1>
         <table>
+          <thead>
           <tr className="table-row">
             <th colSpan="4" className="table-header"  >
-              <p data-testid= "total">{total}</p>
+              <p data-testid= "answer">{total}</p>
               <p>{operation}</p>
               <p>{next}</p>
 
             </th>
           </tr>
+          </thead>
 
-          <tr>
+<tbody>
+<tr>
             <td><p onClick={buttonPress} data-testid= "AC">AC</p></td>
             <td><p onClick={buttonPress} data-testid= "+/-">+/-</p></td>
             <td><p onClick={buttonPress} data-testid= "%">%</p></td>
@@ -66,6 +69,8 @@ const Calculator =() => {
             <td><p  onClick={buttonPress} data-testid= ".">.</p></td>
             <td className="operator"><p onClick={buttonPress} data-testid= "=">=</p></td>
           </tr>
+</tbody>
+        
         </table>
       </div>
       </>
