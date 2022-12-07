@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display the home page check the contents of the home page 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <h2
+      class="welcome"
+    >
+      Welcome to our page
+    </h2>
+    <div
+      class="main-box"
+    >
+      <p
+        class="sub-box"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.
+      </p>
+      <p
+        class="lores"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.
+      </p>
+    </div>
+  </main>
+</div>
+`;
