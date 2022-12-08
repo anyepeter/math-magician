@@ -23,48 +23,54 @@ const Calculator =() => {
       <div className="calculator-container">
         <h1>Lets do some maths</h1>
         <table>
+          <thead>
           <tr className="table-row">
-            <th colSpan="4" className="table-header">
-              <p>{total}</p>
+            <th colSpan="4" className="table-header"  >
+              <p data-testid= "answer">{total}</p>
               <p>{operation}</p>
               <p>{next}</p>
 
             </th>
           </tr>
+          </thead>
 
-          <tr>
-            <td><p onClick={buttonPress}>AC</p></td>
-            <td><p onClick={buttonPress}>+/-</p></td>
-            <td><p onClick={buttonPress}>%</p></td>
-            <td className="operator"><p onClick={buttonPress}>÷</p></td>
+<tbody>
+<tr>
+            <td><p onClick={buttonPress} data-testid= "AC">AC</p></td>
+            <td><p onClick={buttonPress} data-testid= "+/-">+/-</p></td>
+            <td><p onClick={buttonPress} data-testid= "%">%</p></td>
+            <td className="operator"><p onClick={buttonPress} data-testid= "÷"
+             >÷</p></td>
           </tr>
 
           <tr>
-            <td><p onClick={buttonPress}>7</p></td>
-            <td><p onClick={buttonPress}>8</p></td>
-            <td><p onClick={buttonPress}>9</p></td>
-            <td className="operator"><p onClick={buttonPress}>*</p></td>
+            <td><p onClick={buttonPress} data-testid= "7">7</p></td>
+            <td><p onClick={buttonPress} data-testid= "8">8</p></td>
+            <td><p onClick={buttonPress} data-testid= "9">9</p></td>
+            <td className="operator"><p onClick={buttonPress} data-testid= "*">*</p></td>
           </tr>
 
           <tr>
-            <td><p onClick={buttonPress}>4</p></td>
-            <td><p onClick={buttonPress}>5</p></td>
-            <td><p onClick={buttonPress}>6</p></td>
-            <td className="operator"><p onClick={buttonPress}>-</p></td>
+            <td><p onClick={buttonPress} data-testid= "4">4</p></td>
+            <td><p onClick={buttonPress} data-testid= "5">5</p></td>
+            <td><p onClick={buttonPress} data-testid= "6">6</p></td>
+            <td className="operator"><p onClick={buttonPress} data-testid= "-">-</p></td>
           </tr>
 
           <tr>
-            <td><p onClick={buttonPress}>1</p></td>
-            <td><p onClick={buttonPress}>2</p></td>
-            <td><p onClick={buttonPress}>3</p></td>
-            <td className="operator"><p onClick={buttonPress}>+</p></td>
+            <td><p onClick={buttonPress} data-testid= "1">1</p></td>
+            <td><p onClick={buttonPress} data-testid= "2">2</p></td>
+            <td><p onClick={buttonPress} data-testid= "3">3</p></td>
+            <td className="operator"><p onClick={buttonPress} data-testid= "+">+</p></td>
           </tr>
 
           <tr>
-            <td colSpan="2"><p onClick={buttonPress}>0</p></td>
-            <td><p  onClick={buttonPress}>.</p></td>
-            <td className="operator"><p onClick={buttonPress}>=</p></td>
+            <td colSpan="2"><p onClick={buttonPress} data-testid= "0">0</p></td>
+            <td><p  onClick={buttonPress} data-testid= ".">.</p></td>
+            <td className="operator"><p onClick={buttonPress} data-testid= "=">=</p></td>
           </tr>
+</tbody>
+        
         </table>
       </div>
       </>

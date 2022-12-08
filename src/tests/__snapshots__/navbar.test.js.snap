@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`navbar render links check if it rendering or not 1`] = `
+<div>
+  <div
+    class="nav-bar"
+  >
+    <div
+      class="logo"
+    >
+      <h1
+        class="magicians"
+      >
+        Math Magicians
+      </h1>
+    </div>
+    <nav
+      class="nav"
+    >
+      <a
+        class="links"
+        href="/"
+      >
+        Home
+      </a>
+      |
+      <a
+        class="links"
+        href="/calculator"
+      >
+        Calculator
+      </a>
+      |
+      <a
+        class="links"
+        href="/Quotes"
+      >
+        Quotes
+      </a>
+    </nav>
+  </div>
+</div>
+`;
