@@ -94,9 +94,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Link to  deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live](https://math-0t59.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,14 +171,8 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
-
+Deployed using render
+[live link](https://math-0t59.onrender.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
