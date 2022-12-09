@@ -26,10 +26,10 @@ const Calculator =() => {
           <thead>
           <tr className="table-row">
             <th colSpan="4" className="table-header"  >
-              <div className='tectd'>
-              <span data-testid= "answer">{total}</span>
-              <span>{operation}</span>
-              <span>{next}</span>
+              <div >
+              <span className='tectd' data-testid= "answer">{total}</span>
+              <span className='tectd'>{operation}</span>
+              <span className='tectd'>{next}</span>
               </div>
             </th>
           </tr>
