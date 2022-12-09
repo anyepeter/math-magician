@@ -25,7 +25,7 @@ table {
 .table-row {
   background-color: silver;
   width: 100%;
-  height: auto;
+  height: 20px;
 }
 
 .table-header {
