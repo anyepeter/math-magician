@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math magician] <a name="about-project"></a>
 
-> Math-Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read a random math-related quote.
+> Math-Magicians is a web application for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read a random math-related quote.
 
 
 
