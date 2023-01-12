@@ -236,6 +236,4 @@ I would like to thank heintayzar and Zainab-Alzubair for helping me through our 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/)</p>
